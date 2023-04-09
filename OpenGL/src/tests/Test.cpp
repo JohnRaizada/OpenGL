@@ -2,7 +2,7 @@
 #include "imgui/imgui.h"
 namespace test
 {
-	TestMenu::TestMenu(Test*& currentTestPointer):m_CurrentTest(currentTestPointer) {
+	TestMenu::TestMenu(Test*& currentTestPointer) :m_CurrentTest(currentTestPointer) {
 
 	}
 	void TestMenu::OnImGuiRender() {
@@ -11,4 +11,4 @@ namespace test
 				m_CurrentTest = test.second();
 		}
 	}
-} 
+}
