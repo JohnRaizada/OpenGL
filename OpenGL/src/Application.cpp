@@ -56,7 +56,7 @@ int main(void)
 		while (!glfwWindowShouldClose(window))
 		{
 			/* Render here */
-			GLCall(glClearColor(0.0f, 0.0f, 0.0f, 1.0f));
+			//GLCall(glClearColor(1.0f, 0.0f, 0.0f, 1.0f));
 			renderer.Clear();
 			ImGui_ImplGlfwGL3_NewFrame();
 			if (currentTest)
