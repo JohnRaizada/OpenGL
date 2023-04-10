@@ -99,6 +99,12 @@
     <ClCompile Include="src\Importers\PNM\PnmParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Importers\WebP\WebpParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Importers\SVG\SvgParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\shaders\Basic.shader" />
@@ -1314,6 +1320,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\Importers\PNM\PnmParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Importers\WebP\WebpParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Importers\SVG\SvgParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

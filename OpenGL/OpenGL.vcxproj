@@ -150,8 +150,10 @@
     <ClCompile Include="src\Importers\PNG\PngParser.cpp" />
     <ClCompile Include="src\Importers\PNM\PnmParser.cpp" />
     <ClCompile Include="src\Importers\PPM\PpmParser.cpp" />
+    <ClCompile Include="src\Importers\SVG\SvgParser.cpp" />
     <ClCompile Include="src\Importers\TGA\TgaParser.cpp" />
     <ClCompile Include="src\Importers\TIF\TifParser.cpp" />
+    <ClCompile Include="src\Importers\WebP\WebpParser.cpp" />
     <ClCompile Include="src\IndexBuffer.cpp" />
     <ClCompile Include="src\Renderer.cpp" />
     <ClCompile Include="src\Shader.cpp" />
@@ -315,8 +317,10 @@
     <ClInclude Include="src\Importers\PNG\PngParser.h" />
     <ClInclude Include="src\Importers\PNM\PnmParser.h" />
     <ClInclude Include="src\Importers\PPM\PpmParser.h" />
+    <ClInclude Include="src\Importers\SVG\SvgParser.h" />
     <ClInclude Include="src\Importers\TGA\TgaParser.h" />
     <ClInclude Include="src\Importers\TIF\TifParser.h" />
+    <ClInclude Include="src\Importers\WebP\WebpParser.h" />
     <ClInclude Include="src\IndexBuffer.h" />
     <ClInclude Include="src\Renderer.h" />
     <ClInclude Include="src\Shader.h" />
