@@ -1325,6 +1325,9 @@
     <ClInclude Include="src\Importers\WebP\WebpParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Importers\ImportersCommonHeaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="src\Importers\SVG\SvgParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>

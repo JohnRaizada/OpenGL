@@ -311,6 +311,7 @@
     <ClInclude Include="src\Importers\BMP\BmpParser.h" />
     <ClInclude Include="src\Importers\GIF\GifParser.h" />
     <ClInclude Include="src\Importers\HEIF\HeifParser.h" />
+    <ClInclude Include="src\Importers\ImportersCommonHeaders.h" />
     <ClInclude Include="src\Importers\JPG\JpgParser.h" />
     <ClInclude Include="src\Importers\PBM\PbmParser.h" />
     <ClInclude Include="src\Importers\PGM\PgmParser.h" />

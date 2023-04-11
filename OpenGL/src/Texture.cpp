@@ -11,12 +11,13 @@
 #include <Importers/PBM/PbmParser.h>
 #include <Importers/PNM/PnmParser.h>
 #include <Importers/WebP/WebpParser.h>
+#include <Importers/SVG/SvgParser.h>
 //#include "stb_image/stb_image.h"
 Texture::Texture(const std::string& path) :m_RendererID(0), m_FilePath(path), m_LocalBuffer(nullptr), m_Width(0), m_Height(0), m_BPP(0) {
 	//stbi_set_flip_vertically_on_load(1);
 	//m_LocalBuffer = stbi_load(path.c_str(), &m_Width, &m_Height, &m_BPP, 4);
 	//m_LocalBuffer = LoadBMP(path.c_str(), &m_Width, &m_Height, &m_BPP, 4);
-	m_LocalBuffer = LoadWebP(path.c_str(), &m_Width, &m_Height, &m_BPP, 4);
+	m_LocalBuffer = LoadSVG(path.c_str(), &m_Width, &m_Height, &m_BPP, 4);
 	if (m_LocalBuffer == nullptr)
 	{
 		std::cerr << "Error loading file" << std::endl;
